@@ -1,0 +1,50 @@
+==================================================================================================
+While OpenAI's models remain influential, the LLM ecosystem has rapidly diversified, 
+offering developers multiple options for their applications. 
+To maintain clarity, we'll separate LLMs from the model gateways that provide access to them.
+
+==================================================================================================
+Key LLM families
+
+Anthropic Claude: Excels in reasoning, long-form content processing, and vision analysis with up to 200K token context windows
+
+Mistral models: Powerful open-source models with strong multilingual capabilities and exceptional reasoning abilities
+
+Google Gemini: Advanced multimodal models with industry-leading 1M token context window and real-time information access
+
+OpenAI GPT-o: Leading omnimodal capabilities accepting text, audio, image, and video with enhanced reasoning
+
+DeepSeek models: Specialized in coding and technical reasoning with state-of-the-art performance on programming tasks
+
+AI21 Labs Jurassic: Strong in academic applications and long-form content generation
+
+Inflection Pi: Optimized for conversational AI with exceptional emotional intelligence
+
+Perplexity models: Focused on accurate, cited answers for research applications
+
+Cohere models: Specialized for enterprise applications with strong multilingual capabilities
+
+==================================================================================================
+Cloud provider gateways
+
+Amazon Bedrock: Unified API access to models from Anthropic, AI21, Cohere, Mistral, and others with AWS integration
+
+Azure OpenAI Service: Enterprise-grade access to OpenAI and other models with robust security and Microsoft ecosystem integration
+
+Google Vertex AI: Access to Gemini and other models with seamless Google Cloud integration
+
+==================================================================================================
+Independent platforms
+
+Together AI: Hosts 200+ open-source models with both serverless and dedicated GPU options
+
+Replicate: Specializes in deploying multimodal open-source models with pay-as-you-go pricing
+
+HuggingFace Inference Endpoints: Production deployment of thousands of open-source models with fine-tuning capabilities”
+
+================================================================================
+These parameters work together to shape model output:
+
+Temperature + Top-k/Top-p: First, Top-k/Top-p filter the token distribution, and then temperature affects randomness within that filtered set
+Penalties + Temperature: Higher temperatures with low penalties can produce creative but potentially repetitive text
+

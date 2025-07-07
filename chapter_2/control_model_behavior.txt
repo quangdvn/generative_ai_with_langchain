@@ -1,0 +1,95 @@
+Parameter | Description | Typical Range | Best For
+
+
+
+
+Temperature
+
+
+Controls randomness in text generation
+
+
+0.0-1.0 (OpenAI, Anthropic)
+0.0-2.0 (Gemini)
+
+
+Lower (0.0-0.3): Factual tasks, Q&A
+Higher (0.7+): Creative writing, brainstorming
+
+
+
+
+Top-k
+
+
+Limits token selection to k most probable tokens
+
+
+1-100
+
+
+Lower values (1-10): More focused outputs
+Higher values: More diverse completions
+
+
+
+
+Top-p (Nucleus Sampling)
+
+
+Considers tokens until cumulative probability reaches threshold
+
+
+0.0-1.0
+
+
+Lower values (0.5): More focused outputs
+Higher values (0.9): More exploratory responses
+
+
+
+
+
+Max tokens
+
+
+Limits maximum response length
+
+
+Model-specific
+
+
+Controlling costs and preventing verbose outputs
+
+
+
+
+Presence/frequency penalties
+
+
+Discourages repetition by penalizing tokens that have appeared
+
+
+-2.0 to 2.0
+
+
+Longer content generation where repetition is undesirable
+
+
+
+
+Stop sequences
+
+
+Tells model when to stop generating
+
+
+Custom strings
+
+
+Controlling exact ending points of generation”
+
+Excerpt From
+Generative AI with LangChain_Second Edition
+Ben Auffarth & Leonid Kuligin
+This material may be protected by copyright.
